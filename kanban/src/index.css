@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap");
+
+body {
+  background-color: #7c3aed;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.sidebar a {
+  display: flex;
+  gap: 8px;
+  width: 80px;
+  margin-bottom: 35px;
+  text-decoration: none;
+  list-style: none;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.container{
+  display: flex;
+  
+}
+.container-card {
+  background-color: white;
+  border-radius: 32px 0px 0px 0px;
+  height: 100vh;
+}
+
+.cards-board {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
